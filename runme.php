@@ -19,7 +19,7 @@ while (1)
 	if ($bot->connected && $bot->newConn) // Stranger is on the other end and it's a new connection. Useful if you want to send the initial message.
 	{
 		$bot->newConn = false;
-		$bot->s_msg("Hello. I'm Adam. I'd like to argue something. Or why are you here?"); //First message to send to the new connection
+		$bot->s_msg("Hi. Alex, 22. Why are you here?"); //First message to send to the new connection
 	}
 	if ($bot->newMessage) // We got a new message!
 	{
