@@ -15,7 +15,7 @@ public $recentMsg=null; // Contents of last message.
 public $name="Omegle Bot"; // Name of your bot. IMPORTANT
 
 public $idle_timeout=false; // Do we want to disconnect if Stranger isn't talking?
-public $idle_seconds=0; // How long to wait if stranger stops talking.  For use with $idle_timeout.
+public $idle_seconds=90; // How long to wait if stranger stops talking.  For use with $idle_timeout.
 private $tO=0; // Variable used with the idle timeout.  Don't mess with it.
 public $newConn; // Did the bot connect again?
 public $retryLimit = 10; // If requests aren't going through to the server, how many times do we retry?
